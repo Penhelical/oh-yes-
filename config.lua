@@ -11,4 +11,6 @@ return {
 	AVPGS = 0,
 	MUSIC_VOLUME = 1.0,
 	SHOW_TEXT = true,
+	LOVE_DIRECTORY = "D:\\osu!\\LOVE\\love.exe"
+	GAME_DIRECTORY = "D:\\osu!\\game"
 }

@@ -65,9 +65,9 @@ general.startSong = function()
         local newfile = io.open(t.."/game/launcher-config.cfg","w+")
         newfile:write(tostring(config.MUSIC_VOLUME))
         newfile:close()
-        os.execute('start "" "D:\\osu!\\LOVE\\lovec.exe" "D:\\osu!\\game"')         
+        os.execute('start "" '..config.LOVE_DIRECTORY..' '..config.GAME_DIRECTORY)   
     else
-        os.execute('start "" "D:\\osu!\\LOVE\\lovec.exe" "D:\\osu!\\game"')
+        os.execute('start "" '..config.LOVE_DIRECTORY..' '..config.GAME_DIRECTORY)
     end
 end
 
