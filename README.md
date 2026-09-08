@@ -1,7 +1,7 @@
 # oh-yes!
 osu! clone in lua (osu!lua)
 
-##Installation
+## Installation
 
 Download source. 
 1.Move files to osu!folder or folder with Songs folder(osu maps)
